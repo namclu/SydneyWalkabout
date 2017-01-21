@@ -31,20 +31,20 @@ public class BeachesFragment extends Fragment {
         // Create a list of tour items
         final ArrayList<TourItem> tourItems = new ArrayList<TourItem>();
 
-        tourItems.add(new TourItem(getString(R.string.beaches_title_bondi),
-                getString(R.string.beaches_description_bondi)));
-        tourItems.add(new TourItem(getString(R.string.beaches_title_bondi),
-                getString(R.string.beaches_description_bondi)));
-        tourItems.add(new TourItem(getString(R.string.beaches_title_bondi),
-                getString(R.string.beaches_description_bondi)));
-        tourItems.add(new TourItem(getString(R.string.beaches_title_bondi),
-                getString(R.string.beaches_description_bondi)));
-        tourItems.add(new TourItem(getString(R.string.beaches_title_bondi),
-                getString(R.string.beaches_description_bondi)));
-        tourItems.add(new TourItem(getString(R.string.beaches_title_bondi),
-                getString(R.string.beaches_description_bondi)));
-        tourItems.add(new TourItem(getString(R.string.beaches_title_bondi),
-                getString(R.string.beaches_description_bondi)));
+        tourItems.add(new TourItem(getString(R.string.title_bondi),
+                getString(R.string.description_bondi)));
+        tourItems.add(new TourItem(getString(R.string.title_bondi),
+                getString(R.string.description_bondi)));
+        tourItems.add(new TourItem(getString(R.string.title_bondi),
+                getString(R.string.description_bondi)));
+        tourItems.add(new TourItem(getString(R.string.title_bondi),
+                getString(R.string.description_bondi)));
+        tourItems.add(new TourItem(getString(R.string.title_bondi),
+                getString(R.string.description_bondi)));
+        tourItems.add(new TourItem(getString(R.string.title_bondi),
+                getString(R.string.description_bondi)));
+        tourItems.add(new TourItem(getString(R.string.title_bondi),
+                getString(R.string.description_bondi)));
 
         TourItemsAdapter tourItemsAdapter = new TourItemsAdapter(getContext(), tourItems);
         ListView listView = (ListView) rootView.findViewById(R.id.list_view);

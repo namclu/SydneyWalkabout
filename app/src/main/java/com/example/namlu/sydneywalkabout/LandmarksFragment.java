@@ -30,20 +30,20 @@ public class LandmarksFragment extends Fragment {
         // Create a list of tour items
         final ArrayList<TourItem> tourItems = new ArrayList<TourItem>();
 
-        tourItems.add(new TourItem(getString(R.string.landmark_title_opera_house),
-                getString(R.string.landmark_description_opera_house)));
-        tourItems.add(new TourItem(getString(R.string.landmark_title_opera_house),
-                getString(R.string.landmark_description_opera_house)));
-        tourItems.add(new TourItem(getString(R.string.landmark_title_opera_house),
-                getString(R.string.landmark_description_opera_house)));
-        tourItems.add(new TourItem(getString(R.string.landmark_title_opera_house),
-                getString(R.string.landmark_description_opera_house)));
-        tourItems.add(new TourItem(getString(R.string.landmark_title_opera_house),
-                getString(R.string.landmark_description_opera_house)));
-        tourItems.add(new TourItem(getString(R.string.landmark_title_opera_house),
-                getString(R.string.landmark_description_opera_house)));
-        tourItems.add(new TourItem(getString(R.string.landmark_title_opera_house),
-                getString(R.string.landmark_description_opera_house)));
+        tourItems.add(new TourItem(getString(R.string.title_opera_house),
+                getString(R.string.description_opera_house)));
+        tourItems.add(new TourItem(getString(R.string.title_opera_house),
+                getString(R.string.description_opera_house)));
+        tourItems.add(new TourItem(getString(R.string.title_opera_house),
+                getString(R.string.description_opera_house)));
+        tourItems.add(new TourItem(getString(R.string.title_opera_house),
+                getString(R.string.description_opera_house)));
+        tourItems.add(new TourItem(getString(R.string.title_opera_house),
+                getString(R.string.description_opera_house)));
+        tourItems.add(new TourItem(getString(R.string.title_opera_house),
+                getString(R.string.description_opera_house)));
+        tourItems.add(new TourItem(getString(R.string.title_opera_house),
+                getString(R.string.description_opera_house)));
 
         // Create a {@link TourItemsAdapter}, whose data source is a list of {@link TourItem}s. The
         // adapter knows how to create list items for each item in the list.

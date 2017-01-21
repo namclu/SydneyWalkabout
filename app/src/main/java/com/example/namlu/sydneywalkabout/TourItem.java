@@ -17,7 +17,8 @@ public class TourItem {
     /*
      * Create a new TourItem object.
      *
-     * @param mTourItemTitle
+     * @param mTourItemTitle the title of the tour item
+     * @param mToutItemDescription - the description of the tour item
      */
     public TourItem(String tourItemTitle, String tourItemDescription){
         mTourItemTitle = tourItemTitle;
