@@ -17,6 +17,8 @@
         </activity>
         <activity android:name=".LandmarksActivity">
         </activity>
+        <activity android:name=".BeachesActivity">
+        </activity>
     </application>
 
 </manifest>

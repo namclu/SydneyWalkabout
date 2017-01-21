@@ -6,6 +6,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 
 /**
@@ -22,8 +25,33 @@ public class BeachesFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        View rootView = inflater.inflate(R.layout.tour_item_list_view, container, false);
+
+        // Create a list of tour items
+        final ArrayList<TourItem> tourItems = new ArrayList<TourItem>();
+
+        tourItems.add(new TourItem(getString(R.string.beaches_title_bondi),
+                getString(R.string.beaches_description_bondi)));
+        tourItems.add(new TourItem(getString(R.string.beaches_title_bondi),
+                getString(R.string.beaches_description_bondi)));
+        tourItems.add(new TourItem(getString(R.string.beaches_title_bondi),
+                getString(R.string.beaches_description_bondi)));
+        tourItems.add(new TourItem(getString(R.string.beaches_title_bondi),
+                getString(R.string.beaches_description_bondi)));
+        tourItems.add(new TourItem(getString(R.string.beaches_title_bondi),
+                getString(R.string.beaches_description_bondi)));
+        tourItems.add(new TourItem(getString(R.string.beaches_title_bondi),
+                getString(R.string.beaches_description_bondi)));
+        tourItems.add(new TourItem(getString(R.string.beaches_title_bondi),
+                getString(R.string.beaches_description_bondi)));
+
+        TourItemsAdapter tourItemsAdapter = new TourItemsAdapter(getContext(), tourItems);
+        ListView listView = (ListView) rootView.findViewById(R.id.list_view);
+        listView.setAdapter(tourItemsAdapter);
+
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_beaches, container, false);
+        return rootView;
     }
 
 }

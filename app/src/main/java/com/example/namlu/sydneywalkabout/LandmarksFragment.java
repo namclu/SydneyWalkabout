@@ -45,9 +45,9 @@ public class LandmarksFragment extends Fragment {
         tourItems.add(new TourItem(getString(R.string.landmark_title_opera_house),
                 getString(R.string.landmark_description_opera_house)));
 
-        // Create a {@link TourItemAdapter}, whose data source is a list of {@link TourItem}s. The
+        // Create a {@link TourItemsAdapter}, whose data source is a list of {@link TourItem}s. The
         // adapter knows how to create list items for each item in the list.
-        TourItemAdapter tourItemAdapter = new TourItemAdapter(getContext(), tourItems);
+        TourItemsAdapter tourItemsAdapter = new TourItemsAdapter(getContext(), tourItems);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
@@ -56,7 +56,7 @@ public class LandmarksFragment extends Fragment {
 
         // Make the {@link ListView} use the {@link WordAdapter} we created above, so that the
         // {@link ListView} will display list items for each {@link Word} in the list.
-        listView.setAdapter(tourItemAdapter);
+        listView.setAdapter(tourItemsAdapter);
 
         // Inflate the layout for this fragment
         return rootView;

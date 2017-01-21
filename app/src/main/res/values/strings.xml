@@ -10,4 +10,8 @@
     <!-- Landmarks -->
     <string name="landmark_title_opera_house">Sydney Opera House</string>
     <string name="landmark_description_opera_house">A description of the Sydney Opera House</string>
+
+    <!-- Beaches -->
+    <string name="beaches_title_bondi">Bondi Beach</string>
+    <string name="beaches_description_bondi">A description of Bondi Beach</string>
 </resources>
