@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SydneyWalkabout</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_landmarks_fragment">Hello landmarks fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_beaches_fragment">Hello beaches fragment</string>
 </resources>
