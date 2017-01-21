@@ -6,4 +6,8 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_beaches_fragment">Hello beaches fragment</string>
+
+    <!-- Landmarks -->
+    <string name="landmark_title_opera_house">Sydney Opera House</string>
+    <string name="landmark_description_opera_house">A description of the Sydney Opera House</string>
 </resources>
