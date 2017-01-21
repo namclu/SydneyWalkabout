@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -16,6 +17,23 @@ import java.util.ArrayList;
  */
 public class BeachesFragment extends Fragment {
 
+    public static final String ARG_PAGE = "ARG_PAGE";
+
+    private int mPage;
+
+    public static BeachesFragment newInstance(int page) {
+        Bundle args = new Bundle();
+        args.putInt(ARG_PAGE, page);
+        BeachesFragment fragment = new BeachesFragment();
+        fragment.setArguments(args);
+        return fragment;
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        mPage = getArguments().getInt(ARG_PAGE);
+    }
 
     public BeachesFragment() {
         // Required empty public constructor
@@ -27,6 +45,10 @@ public class BeachesFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         View rootView = inflater.inflate(R.layout.tour_item_list_view, container, false);
+
+        // For adding a TabLayout
+        TextView textView = (TextView) rootView;
+        textView.setText("Fragment # " + mPage);
 
         // Create a list of tour items
         final ArrayList<TourItem> tourItems = new ArrayList<TourItem>();
