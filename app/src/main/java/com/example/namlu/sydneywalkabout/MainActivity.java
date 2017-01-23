@@ -1,10 +1,15 @@
 package com.example.namlu.sydneywalkabout;
 
+import android.os.Bundle;
+import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
+
+    // Declare instance variables
+    private TabLayout mTabLayout;
+    private ViewPager mViewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -12,12 +17,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Find the view pager that will allow the user to swipe between fragments
-        ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager_main);
+        mViewPager = (ViewPager) findViewById(R.id.viewpager_main);
+        setupViewPager(mViewPager);
 
-        // Create an adapter that knows which fragment should be shown on each page
-        SimpleFragmentPagerAdapter adapter = new SimpleFragmentPagerAdapter(getSupportFragmentManager());
+        mTabLayout = (TabLayout) findViewById(R.id.tabs_main);
+        mTabLayout.setupWithViewPager(mViewPager);
+    }
 
-        // Set the adapter onto the view pager
+    private void setupViewPager(ViewPager viewPager) {
+        ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
+        adapter.addFragment(new LandmarksFragment(), "Landmarks");
+        adapter.addFragment(new BeachesFragment(), "Beaches");
         viewPager.setAdapter(adapter);
+
     }
 }
