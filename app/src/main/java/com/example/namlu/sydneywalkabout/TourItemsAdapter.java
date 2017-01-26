@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -26,26 +27,36 @@ public class TourItemsAdapter extends ArrayAdapter<TourItem> {
     public View getView(int position, View convertView, ViewGroup parent) {
 
         // Check if existing view is being reused, otherwise inflate the view
-        View tourItemsView = convertView;
+        View tourItemView = convertView;
 
-        if (tourItemsView == null) {
-            tourItemsView = LayoutInflater.from(getContext()).inflate(R.layout.tour_item, parent, false);
+        if (tourItemView == null) {
+            tourItemView = LayoutInflater.from(getContext()).inflate(R.layout.tour_item, parent, false);
         }
 
         // Get the {@link TourItem} object located at this position in the list
-        TourItem currentTourItem = this.getItem(position);
+        TourItem currentTourItem = getItem(position);
+
+        // Find the TourItem image in the tour_item.xml layout, then get the image from currentTourItem
+        //      and set the image
+        ImageView tourImage = (ImageView) tourItemView.findViewById(R.id.iv_tour_image);
+        if (currentTourItem.hasImage()) {
+            tourImage.setImageResource(currentTourItem.getTourImageResId());
+            tourImage.setVisibility(View.VISIBLE);
+        } else {
+            tourImage.setVisibility(View.GONE);
+        }
 
         // Find the TourItem title in the tour_item.xml layout, then get the title from currentTourItem
         //      and set this title as the text
-        TextView tourItemTitle = (TextView) tourItemsView.findViewById(R.id.tour_item_title);
-        tourItemTitle.setText(currentTourItem.getTourItemTitle());
+        TextView tourTitle = (TextView) tourItemView.findViewById(R.id.tv_tour_title);
+        tourTitle.setText(currentTourItem.getTourTitle());
 
         // Find the TourItem description in the tour_item.xml layout, then get the description from currentTourItem
         //      and set this description as the text
-        TextView tourItemDescription = (TextView) tourItemsView.findViewById(R.id.tour_item_description);
-        tourItemDescription.setText(currentTourItem.getTourItemDescription());
+        TextView tourDescription = (TextView) tourItemView.findViewById(R.id.tv_tour_description);
+        tourDescription.setText(currentTourItem.getTourDescription());
 
         // Return the whole list item layout so that it can be shown in the ListView.
-        return tourItemsView;
+        return tourItemView;
     }
 }

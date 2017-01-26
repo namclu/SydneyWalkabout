@@ -31,7 +31,7 @@ public class BeachesFragment extends Fragment {
         // Create a list of tour items
         final ArrayList<TourItem> tourItems = new ArrayList<TourItem>();
 
-        tourItems.add(new TourItem(getString(R.string.title_bondi),
+        tourItems.add(new TourItem(R.drawable.bondi_coogee, getString(R.string.title_bondi),
                 getString(R.string.description_bondi)));
         tourItems.add(new TourItem(getString(R.string.title_bondi),
                 getString(R.string.description_bondi)));
