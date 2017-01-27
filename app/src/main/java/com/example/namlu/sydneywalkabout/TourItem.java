@@ -27,8 +27,8 @@ public class TourItem {
      * @param mToutItemDescription - the description of the tour item
      */
     public TourItem(String tourTitle, String tourDescription){
-        mTourTitle = tourTitle;
-        mTourDescription = tourDescription;
+        setTourTitle(tourTitle);
+        setTourDescription(tourDescription);
     }
 
     /*
@@ -39,9 +39,9 @@ public class TourItem {
      * @param mToutItemDescription - the description of the tour item
      */
     public TourItem(int tourImageResId, String tourTitle, String tourDescription){
-        mTourImageResId = tourImageResId;
-        mTourTitle = tourTitle;
-        mTourDescription = tourDescription;
+        setTourImageResId(tourImageResId);
+        setTourTitle(tourTitle);
+        setTourDescription(tourDescription);
     }
 
     /*
