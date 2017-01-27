@@ -35,11 +35,11 @@ public class BeachesFragment extends Fragment {
                 getString(R.string.description_bondi)));
         tourItems.add(new TourItem(R.drawable.clovelly, getString(R.string.title_clovelly),
                 getString(R.string.description_clovelly)));
-        tourItems.add(new TourItem(getString(R.string.title_coogee),
+        tourItems.add(new TourItem(R.drawable.coogee, getString(R.string.title_coogee),
                 getString(R.string.description_coogee)));
-        tourItems.add(new TourItem(getString(R.string.title_manly),
+        tourItems.add(new TourItem(R.drawable.manly, getString(R.string.title_manly),
                 getString(R.string.description_manly)));
-        tourItems.add(new TourItem(getString(R.string.title_palm_beach),
+        tourItems.add(new TourItem(R.drawable.palm_beach, getString(R.string.title_palm_beach),
                 getString(R.string.description_palm_beach)));
 
         /*
