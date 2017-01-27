@@ -30,20 +30,16 @@ public class LandmarksFragment extends Fragment {
         // Create a list of tour items
         final ArrayList<TourItem> tourItems = new ArrayList<TourItem>();
 
+        tourItems.add(new TourItem(getString(R.string.title_anzac_memorial),
+                getString(R.string.description_anzac_memorial)));
+        tourItems.add(new TourItem(getString(R.string.title_harbour_bridge),
+                getString(R.string.description_harbour_bridge)));
         tourItems.add(new TourItem(getString(R.string.title_opera_house),
                 getString(R.string.description_opera_house)));
-        tourItems.add(new TourItem(getString(R.string.title_opera_house),
-                getString(R.string.description_opera_house)));
-        tourItems.add(new TourItem(getString(R.string.title_opera_house),
-                getString(R.string.description_opera_house)));
-        tourItems.add(new TourItem(getString(R.string.title_opera_house),
-                getString(R.string.description_opera_house)));
-        tourItems.add(new TourItem(getString(R.string.title_opera_house),
-                getString(R.string.description_opera_house)));
-        tourItems.add(new TourItem(getString(R.string.title_opera_house),
-                getString(R.string.description_opera_house)));
-        tourItems.add(new TourItem(getString(R.string.title_opera_house),
-                getString(R.string.description_opera_house)));
+        tourItems.add(new TourItem(getString(R.string.title_queen_victoria_building),
+                getString(R.string.description_queen_victoria_building)));
+        tourItems.add(new TourItem(getString(R.string.title_st_marys),
+                getString(R.string.description_st_marys)));
 
         // Create a {@link TourItemsAdapter}, whose data source is a list of {@link TourItem}s. The
         // adapter knows how to create list items for each item in the list.

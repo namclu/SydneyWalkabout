@@ -8,10 +8,26 @@
     <string name="hello_beaches_fragment">Hello beaches fragment</string>
 
     <!-- Landmarks -->
+    <string name="title_anzac_memorial">Anzac War Memorial</string>
+    <string name="description_anzac_memorial">A description of the Anzac War Memorial</string>
+    <string name="title_harbour_bridge">Harbour Bridge</string>
+    <string name="description_harbour_bridge">A description of the Harbour Bridge</string>
     <string name="title_opera_house">Sydney Opera House</string>
     <string name="description_opera_house">A description of the Sydney Opera House</string>
+    <string name="title_queen_victoria_building">Queen Victoria Building</string>
+    <string name="description_queen_victoria_building">A description of the Queen Victoria Building</string>
+    <string name="title_st_marys">St. Mary's Cathedral</string>
+    <string name="description_st_marys">A description of the St. Mary's Cathedral</string>
 
     <!-- Beaches -->
     <string name="title_bondi">Bondi Beach</string>
     <string name="description_bondi">A description of Bondi Beach</string>
+    <string name="title_clovelly">Clovelly Beach</string>
+    <string name="description_clovelly">A description of Clovelly Beach</string>
+    <string name="title_coogee">Coogee Beach</string>
+    <string name="description_coogee">A description of Coogee Beach</string>
+    <string name="title_manly">Manly Beach</string>
+    <string name="description_manly">A description of Manly Beach</string>
+    <string name="title_palm_beach">Palm Beach Beach</string>
+    <string name="description_palm_beach">A description of Palm Beach Beach</string>
 </resources>

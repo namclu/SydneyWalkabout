@@ -31,20 +31,16 @@ public class BeachesFragment extends Fragment {
         // Create a list of tour items
         final ArrayList<TourItem> tourItems = new ArrayList<TourItem>();
 
-        tourItems.add(new TourItem(R.drawable.bondi_coogee, getString(R.string.title_bondi),
+        tourItems.add(new TourItem(R.drawable.bondi, getString(R.string.title_bondi),
                 getString(R.string.description_bondi)));
-        tourItems.add(new TourItem(getString(R.string.title_bondi),
-                getString(R.string.description_bondi)));
-        tourItems.add(new TourItem(getString(R.string.title_bondi),
-                getString(R.string.description_bondi)));
-        tourItems.add(new TourItem(getString(R.string.title_bondi),
-                getString(R.string.description_bondi)));
-        tourItems.add(new TourItem(getString(R.string.title_bondi),
-                getString(R.string.description_bondi)));
-        tourItems.add(new TourItem(getString(R.string.title_bondi),
-                getString(R.string.description_bondi)));
-        tourItems.add(new TourItem(getString(R.string.title_bondi),
-                getString(R.string.description_bondi)));
+        tourItems.add(new TourItem(R.drawable.clovelly, getString(R.string.title_clovelly),
+                getString(R.string.description_clovelly)));
+        tourItems.add(new TourItem(getString(R.string.title_coogee),
+                getString(R.string.description_coogee)));
+        tourItems.add(new TourItem(getString(R.string.title_manly),
+                getString(R.string.description_manly)));
+        tourItems.add(new TourItem(getString(R.string.title_palm_beach),
+                getString(R.string.description_palm_beach)));
 
         /*
         * See LandmarksFragment.java for detailed comments about code below
