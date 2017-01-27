@@ -46,6 +46,9 @@ public class BeachesFragment extends Fragment {
         tourItems.add(new TourItem(getString(R.string.title_bondi),
                 getString(R.string.description_bondi)));
 
+        /*
+        * See LandmarksFragment.java for detailed comments about code below
+        * */
         TourItemsAdapter tourItemsAdapter = new TourItemsAdapter(getContext(), tourItems);
         ListView listView = (ListView) rootView.findViewById(R.id.list_view);
         listView.setAdapter(tourItemsAdapter);
