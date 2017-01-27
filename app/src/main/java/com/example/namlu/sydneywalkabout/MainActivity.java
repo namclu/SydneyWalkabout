@@ -10,11 +10,9 @@ import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
 
-    // Declare instance variables
+    // Declare instance variables and BindView using Butterknife
     @BindView(R.id.tabs_main) TabLayout mTabLayout;
     @BindView(R.id.viewpager_main) ViewPager mViewPager;
-    //private TabLayout mTabLayout;
-    //private ViewPager mViewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,19 +20,21 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
-        // Find the view pager that will allow the user to swipe between fragments
-        //mViewPager = (ViewPager) findViewById(R.id.viewpager_main);
-        setupViewPager(mViewPager);
-
-        //mTabLayout = (TabLayout) findViewById(R.id.tabs_main);
+        // Call TabLayout.setupWithViewPager() to link TabLayout with ViewPager
         mTabLayout.setupWithViewPager(mViewPager);
+
+        // Call setupViewPager() method
+        setupViewPager(mViewPager);
     }
 
+    /*
+    *  Create a ViewPagerAdapter object, add Fragments, and then setAdapter() set an adapter
+    *  to supply views for this pager as needed.
+    * */
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new LandmarksFragment(), "Landmarks");
         adapter.addFragment(new BeachesFragment(), "Beaches");
         viewPager.setAdapter(adapter);
-
     }
 }
