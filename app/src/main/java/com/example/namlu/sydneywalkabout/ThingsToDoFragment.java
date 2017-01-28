@@ -20,7 +20,6 @@ public class ThingsToDoFragment extends Fragment {
         // Required empty public constructor
     }
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -32,15 +31,15 @@ public class ThingsToDoFragment extends Fragment {
 
         final ArrayList<TourItem> tourItems = new ArrayList<TourItem>();
 
-        tourItems.add(new TourItem(getString(R.string.title_botanic_gardens),
+        tourItems.add(new TourItem(R.drawable.botanic_gardens, getString(R.string.title_botanic_gardens),
                 getString(R.string.description_botanic_gardens)));
-        tourItems.add(new TourItem(getString(R.string.title_hyde_park),
+        tourItems.add(new TourItem(R.drawable.hyde_park, getString(R.string.title_hyde_park),
                 getString(R.string.description_hyde_park)));
-        tourItems.add(new TourItem(getString(R.string.title_luna_park),
+        tourItems.add(new TourItem(R.drawable.luna_park, getString(R.string.title_luna_park),
                 getString(R.string.description_luna_park)));
-        tourItems.add(new TourItem(getString(R.string.title_ocean_pool),
+        tourItems.add(new TourItem(R.drawable.ocean_pool, getString(R.string.title_ocean_pool),
                 getString(R.string.description_ocean_pool)));
-        tourItems.add(new TourItem(getString(R.string.title_taronga_zoo),
+        tourItems.add(new TourItem(R.drawable.taronga_zoo, getString(R.string.title_taronga_zoo),
                 getString(R.string.description_taronga_zoo)));
 
         /*
@@ -52,5 +51,4 @@ public class ThingsToDoFragment extends Fragment {
 
         return rootView;
     }
-
 }
