@@ -27,15 +27,15 @@
 
     <!-- Things To Do -->
     <string name="title_botanic_gardens">Royal Botanic Gardens</string>
-    <string name="description_botanic_gardens">A description of botanic_gardens</string>
+    <string name="description_botanic_gardens">The Royal Botanic Garden Sydney is a major botanical garden located in the heart of Sydney, Australia. Opened in 1816, the garden is the oldest scientific institution in Australia and one of the most important historic botanical institutions in the world.</string>
     <string name="title_hyde_park">Hyde Park</string>
-    <string name="description_hyde_park">A description of _hyde_park</string>
+    <string name="description_hyde_park">Hyde Park, the oldest public parkland in Australia, is a 16.2-hectare (40-acre) park in the central business district of Sydney. It is famed for its magnificent fig tree lined avenues.</string>
     <string name="title_luna_park">Luna Park</string>
-    <string name="description_luna_park">A description of _luna_park</string>
+    <string name="description_luna_park">Visit Luna Park Sydney to catch a concert at the Big Top, eat classy cuisine at The Deck or take in the million dollar views as you ride the Ferris Wheel, as folks have been doing since 1935.</string>
     <string name="title_ocean_pool">Ocean Pool</string>
-    <string name="description_ocean_pool">A description of _ocean_pool</string>
+    <string name="description_ocean_pool">Ocean pools are an important feature of the Australian coastline particularly in New South Wales. Ocean pools or ocean baths are defined as public seawater pools sited on a rocky surf coast, so that waves can wash into the pool.</string>
     <string name="title_taronga_zoo">Taronga Zoo</string>
-    <string name="description_taronga_zoo">A description of _taronga_zoo</string>
+    <string name="description_taronga_zoo">Taronga Zoo is Australia\'s leading zoological park, featuring a comprehensive collection of both native and exotic species.</string>
     
     <!-- Where To Eat -->
     <string name="title_auburn">Auburn</string>
