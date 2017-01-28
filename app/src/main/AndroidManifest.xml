@@ -19,6 +19,8 @@
         </activity>
         <activity android:name=".BeachesActivity">
         </activity>
+        <activity android:name=".ThingsToDoActivity">
+        </activity>
     </application>
 
 </manifest>

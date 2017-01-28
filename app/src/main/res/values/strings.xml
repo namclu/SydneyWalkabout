@@ -30,4 +30,7 @@
     <string name="description_manly">A description of Manly Beach</string>
     <string name="title_palm_beach">Palm Beach Beach</string>
     <string name="description_palm_beach">A description of Palm Beach Beach</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

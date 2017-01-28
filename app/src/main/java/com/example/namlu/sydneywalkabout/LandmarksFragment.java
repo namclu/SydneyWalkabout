@@ -47,7 +47,7 @@ public class LandmarksFragment extends Fragment {
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
-        // word_list.xml layout file.
+        // list_view.xml layout file.
         ListView listView = (ListView) rootView.findViewById(R.id.list_view);
 
         // Make the {@link ListView} use the {@link WordAdapter} we created above, so that the
