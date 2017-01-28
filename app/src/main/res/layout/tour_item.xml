@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:tools="http://schemas.android.com/tools"
               android:layout_width="match_parent"
-              android:layout_height="300dp">
+              android:layout_height="wrap_content">
 
     <ImageView
         android:id="@+id/iv_tour_image"
@@ -14,6 +14,7 @@
 
     <TextView
         android:id="@+id/tv_tour_title"
+        style="@style/Title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/iv_tour_image"
@@ -21,6 +22,7 @@
 
     <TextView
         android:id="@+id/tv_tour_description"
+        style="@style/Description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tv_tour_title"

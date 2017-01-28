@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /*
-    *  Create a ViewPagerAdapter object, add Fragments, and then setAdapter() set an adapter
+    *  Create a ViewPagerAdapter object, add Fragments, and then setAdapter() sets an adapter
     *  to supply views for this pager as needed.
     * */
     private void setupViewPager(ViewPager viewPager) {
