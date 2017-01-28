@@ -54,4 +54,8 @@
     <string name="tab_beaches">Beaches</string>
     <string name="tab_things_to_do">Things To Do</string>
     <string name="tab_where_to_eat">Where To Eat</string>
+
+    <!-- Placeholder Text -->
+    <string name="text_title">Title</string>
+    <string name="text_description">Description</string>
 </resources>

@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/iv_tour_image"
-        tools:text="Title"/>
+        tools:text="@string/text_title"/>
 
     <TextView
         android:id="@+id/tv_tour_description"
@@ -26,6 +26,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tv_tour_title"
-        tools:text="Description"/>
+        tools:text="@string/text_description"/>
 
 </RelativeLayout>
