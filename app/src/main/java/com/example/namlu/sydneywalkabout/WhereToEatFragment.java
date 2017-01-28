@@ -30,15 +30,15 @@ public class WhereToEatFragment extends Fragment {
         // Create a list of tour items
         ArrayList<TourItem> tourItems = new ArrayList<TourItem>();
 
-        tourItems.add(new TourItem(getString(R.string.title_auburn),
+        tourItems.add(new TourItem(R.drawable.auburn, getString(R.string.title_auburn),
                 getString(R.string.description_auburn)));
-        tourItems.add(new TourItem(getString(R.string.title_cabramatta),
+        tourItems.add(new TourItem(R.drawable.cabramatta, getString(R.string.title_cabramatta),
                 getString(R.string.description_cabramatta)));
-        tourItems.add(new TourItem(getString(R.string.title_chinatown),
+        tourItems.add(new TourItem(R.drawable.chinatown, getString(R.string.title_chinatown),
                 getString(R.string.description_chinatown)));
-        tourItems.add(new TourItem(getString(R.string.title_newtown),
+        tourItems.add(new TourItem(R.drawable.newtown, getString(R.string.title_newtown),
                 getString(R.string.description_newtown)));
-        tourItems.add(new TourItem(getString(R.string.title_surry_hills),
+        tourItems.add(new TourItem(R.drawable.surry_hills, getString(R.string.title_surry_hills),
                 getString(R.string.description_surry_hills)));
 
         /*
