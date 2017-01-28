@@ -28,7 +28,6 @@ public class ThingsToDoFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.tour_item_list_view, container, false);
 
         // Create a list of tour items
-
         final ArrayList<TourItem> tourItems = new ArrayList<TourItem>();
 
         tourItems.add(new TourItem(R.drawable.botanic_gardens, getString(R.string.title_botanic_gardens),

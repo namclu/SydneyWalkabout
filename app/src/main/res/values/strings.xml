@@ -25,7 +25,7 @@
     <string name="title_palm_beach">Palm Beach Beach</string>
     <string name="description_palm_beach">A description of Palm Beach Beach</string>
 
-    <!-- Things to do -->
+    <!-- Things To Do -->
     <string name="title_botanic_gardens">Royal Botanic Gardens</string>
     <string name="description_botanic_gardens">A description of botanic_gardens</string>
     <string name="title_hyde_park">Hyde Park</string>
@@ -36,4 +36,16 @@
     <string name="description_ocean_pool">A description of _ocean_pool</string>
     <string name="title_taronga_zoo">Taronga Zoo</string>
     <string name="description_taronga_zoo">A description of _taronga_zoo</string>
+    
+    <!-- Where To Eat -->
+    <string name="title_auburn">Auburn</string>
+    <string name="description_auburn">If you like the sound of spicy lamb shish kebabs toasted over charcoal, visit Gozde or any of the dozen kebab joints in the Turkish enclave of Auburn.</string>
+    <string name="title_cabramatta">Cabramatta</string>
+    <string name="description_cabramatta">For Vietnamese spring rolls or beef pho (broth with noodles), visit Cabramatta\'s John Street.</string>
+    <string name="title_chinatown">Chinatown</string>
+    <string name="description_chinatown">Crispy Asian-style barbecued food can be found in Chinatown, where Dae Jang Kum Korean, Nagoya Yakiniku Japanese and Genghis Khan Mongolian have perfected the art of grilling duck, fish and meats.</string>
+    <string name="title_newtown">Newtown</string>
+    <string name="description_newtown">The eclectic restaurants, bars and cafes that run the length of Newtown\’s King street and up to Enmore Road make for a vibrant food scene.</string>
+    <string name="title_surry_hills">Surry Hills</string>
+    <string name="description_surry_hills">the Lebanese restaurants of Surry Hills\’ Cleveland Street and Lakemba are hard to beat.</string>
 </resources>
