@@ -3,27 +3,27 @@
 
     <!-- Landmarks -->
     <string name="title_anzac_memorial">Anzac War Memorial</string>
-    <string name="description_anzac_memorial">A description of the Anzac War Memorial</string>
+    <string name="description_anzac_memorial">A physical expression of the spirit and legend of ANZAC—dedicated to remembering all Australians who have served their country in the armed forces in wartime or on peacekeeping.</string>
     <string name="title_harbour_bridge">Harbour Bridge</string>
-    <string name="description_harbour_bridge">A description of the Harbour Bridge</string>
+    <string name="description_harbour_bridge">The Sydney Harbour Bridge, also affectionately known as the \'Coathanger\', was opened on March 19th 1932 by Premier Jack Lang, after six years of construction. Made of steel the bridge contains 6 million hand driven rivets. </string>
     <string name="title_opera_house">Sydney Opera House</string>
-    <string name="description_opera_house">A description of the Sydney Opera House</string>
+    <string name="description_opera_house">Sydney Opera House (1957 - 1973) is a masterpiece of late modern architecture. It is admired internationally and proudly treasured by the people of Australia. It was created by a young architect, Denmark\’s Jørn Utzon).</string>
     <string name="title_queen_victoria_building">Queen Victoria Building</string>
-    <string name="description_queen_victoria_building">A description of the Queen Victoria Building</string>
+    <string name="description_queen_victoria_building">About QVB. The Queen Victoria Building, now affectionately known as the QVB, was designed by George McRae and completed in 1898. As recently as 1959 the Queen Victoria Building was threatened with demolition.</string>
     <string name="title_st_marys">St. Mary\'s Cathedral</string>
-    <string name="description_st_marys">A description of the St. Mary\'s Cathedral</string>
+    <string name="description_st_marys">St Mary\'s Cathedral is the spiritual home of Sydney\'s Catholic community. It is the seat of the Archbishop of Sydney, and stands on the site of the first Catholic Chapel in Australia.</string>
 
     <!-- Beaches -->
     <string name="title_bondi">Bondi Beach</string>
-    <string name="description_bondi">A description of Bondi Beach</string>
+    <string name="description_bondi">Bondi Beach is a popular beach and the name of the surrounding suburb in Sydney, New South Wales. It is located 7 km (4 mi) east of the Sydney central business district.</string>
     <string name="title_clovelly">Clovelly Beach</string>
-    <string name="description_clovelly">A description of Clovelly Beach</string>
+    <string name="description_clovelly">Clovelly Beach is a small beach that sits on the end of the narrow bay. The bay is popular with swimmers. The bay is home to one of the first surf lifesaving clubs in the world, Clovelly Surf Life Saving Club, which was founded in 1906.</string>
     <string name="title_coogee">Coogee Beach</string>
-    <string name="description_coogee">A description of Coogee Beach</string>
+    <string name="description_coogee">Coogee is a delightful seaside destination for families, with a patrolled beach, swimming baths and a promenade with barbeque areas and playgrounds.</string>
     <string name="title_manly">Manly Beach</string>
-    <string name="description_manly">A description of Manly Beach</string>
+    <string name="description_manly">Situated between a tranquil inner-harbour beach on one side and a popular surf beach on the other, Manly combines a laid-back beachside attitude with sophisticated dining and shopping.</string>
     <string name="title_palm_beach">Palm Beach Beach</string>
-    <string name="description_palm_beach">A description of Palm Beach Beach</string>
+    <string name="description_palm_beach">Found just over an hour’s drive from the centre of Sydney, Palm Beach is home to the city\’s most northerly stretch of sand.</string>
 
     <!-- Things To Do -->
     <string name="title_botanic_gardens">Royal Botanic Gardens</string>
