@@ -29,7 +29,7 @@ public class LandmarksFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.tour_item_list_view, container, false);
 
         // Create a list of tour items
-        final ArrayList<TourItem> tourItems = new ArrayList<TourItem>();
+        final ArrayList<TourItem> tourItems = new ArrayList<>();
 
         tourItems.add(new TourItem(R.drawable.anzac_memorial, getString(R.string.title_anzac_memorial),
                 getString(R.string.description_anzac_memorial)));

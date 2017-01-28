@@ -28,7 +28,7 @@ public class WhereToEatFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.tour_item_list_view, container, false);
 
         // Create a list of tour items
-        ArrayList<TourItem> tourItems = new ArrayList<TourItem>();
+        ArrayList<TourItem> tourItems = new ArrayList<>();
 
         tourItems.add(new TourItem(R.drawable.auburn, getString(R.string.title_auburn),
                 getString(R.string.description_auburn)));

@@ -29,7 +29,7 @@ public class BeachesFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.tour_item_list_view, container, false);
 
         // Create a list of tour items
-        final ArrayList<TourItem> tourItems = new ArrayList<TourItem>();
+        final ArrayList<TourItem> tourItems = new ArrayList<>();
 
         tourItems.add(new TourItem(R.drawable.bondi, getString(R.string.title_bondi),
                 getString(R.string.description_bondi)));
