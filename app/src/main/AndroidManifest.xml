@@ -21,6 +21,8 @@
         </activity>
         <activity android:name=".ThingsToDoActivity">
         </activity>
+        <activity android:name=".WhereToEatActivity">
+        </activity>
     </application>
 
 </manifest>

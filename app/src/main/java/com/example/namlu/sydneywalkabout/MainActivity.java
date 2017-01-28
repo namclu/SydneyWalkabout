@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         adapter.addFragment(new LandmarksFragment(), "Landmarks");
         adapter.addFragment(new BeachesFragment(), "Beaches");
         adapter.addFragment(new ThingsToDoFragment(), "Things To Do");
+        adapter.addFragment(new WhereToEatFragment(), "Where To Eat");
         viewPager.setAdapter(adapter);
     }
 }
