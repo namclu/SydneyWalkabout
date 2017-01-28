@@ -10,14 +10,13 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-
 /**
  * A simple {@link Fragment} subclass.
  */
-public class BeachesFragment extends Fragment {
+public class ThingsToDoFragment extends Fragment {
 
 
-    public BeachesFragment() {
+    public ThingsToDoFragment() {
         // Required empty public constructor
     }
 
@@ -30,18 +29,19 @@ public class BeachesFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.tour_item_list_view, container, false);
 
         // Create a list of tour items
+
         final ArrayList<TourItem> tourItems = new ArrayList<TourItem>();
 
-        tourItems.add(new TourItem(R.drawable.bondi, getString(R.string.title_bondi),
-                getString(R.string.description_bondi)));
-        tourItems.add(new TourItem(R.drawable.clovelly, getString(R.string.title_clovelly),
-                getString(R.string.description_clovelly)));
-        tourItems.add(new TourItem(R.drawable.coogee, getString(R.string.title_coogee),
-                getString(R.string.description_coogee)));
-        tourItems.add(new TourItem(R.drawable.manly, getString(R.string.title_manly),
-                getString(R.string.description_manly)));
-        tourItems.add(new TourItem(R.drawable.palm_beach, getString(R.string.title_palm_beach),
-                getString(R.string.description_palm_beach)));
+        tourItems.add(new TourItem(getString(R.string.title_botanic_gardens),
+                getString(R.string.description_botanic_gardens)));
+        tourItems.add(new TourItem(getString(R.string.title_hyde_park),
+                getString(R.string.description_hyde_park)));
+        tourItems.add(new TourItem(getString(R.string.title_luna_park),
+                getString(R.string.description_luna_park)));
+        tourItems.add(new TourItem(getString(R.string.title_ocean_pool),
+                getString(R.string.description_ocean_pool)));
+        tourItems.add(new TourItem(getString(R.string.title_taronga_zoo),
+                getString(R.string.description_taronga_zoo)));
 
         /*
         * See LandmarksFragment.java for detailed comments about code below

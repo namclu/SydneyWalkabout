@@ -25,6 +25,7 @@ public class LandmarksFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
+        // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.tour_item_list_view, container, false);
 
         // Create a list of tour items
@@ -54,7 +55,6 @@ public class LandmarksFragment extends Fragment {
         // {@link ListView} will display list items for each {@link Word} in the list.
         listView.setAdapter(tourItemsAdapter);
 
-        // Inflate the layout for this fragment
         return rootView;
     }
 }

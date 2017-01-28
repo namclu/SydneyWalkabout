@@ -1,11 +1,5 @@
 <resources>
-    <string name="app_name">SydneyWalkabout</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_landmarks_fragment">Hello landmarks fragment</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_beaches_fragment">Hello beaches fragment</string>
+    <string name="app_name">Sydney Walkabout</string>
 
     <!-- Landmarks -->
     <string name="title_anzac_memorial">Anzac War Memorial</string>
@@ -31,6 +25,15 @@
     <string name="title_palm_beach">Palm Beach Beach</string>
     <string name="description_palm_beach">A description of Palm Beach Beach</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Things to do -->
+    <string name="title_botanic_gardens">Royal Botanic Gardens</string>
+    <string name="description_botanic_gardens">A description of botanic_gardens</string>
+    <string name="title_hyde_park">Hyde Park</string>
+    <string name="description_hyde_park">A description of _hyde_park</string>
+    <string name="title_luna_park">Luna Park</string>
+    <string name="description_luna_park">A description of _luna_park</string>
+    <string name="title_ocean_pool">Ocean Pool</string>
+    <string name="description_ocean_pool">A description of _ocean_pool</string>
+    <string name="title_taronga_zoo">Taronga Zoo</string>
+    <string name="description_taronga_zoo">A description of _taronga_zoo</string>
 </resources>
