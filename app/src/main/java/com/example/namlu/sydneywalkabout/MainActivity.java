@@ -33,10 +33,10 @@ public class MainActivity extends AppCompatActivity {
     * */
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new LandmarksFragment(), "Landmarks");
-        adapter.addFragment(new BeachesFragment(), "Beaches");
-        adapter.addFragment(new ThingsToDoFragment(), "Things To Do");
-        adapter.addFragment(new WhereToEatFragment(), "Where To Eat");
+        adapter.addFragment(new LandmarksFragment(), getString(R.string.tab_landmarks));
+        adapter.addFragment(new BeachesFragment(), getString(R.string.tab_beaches));
+        adapter.addFragment(new ThingsToDoFragment(), getString(R.string.tab_things_to_do));
+        adapter.addFragment(new WhereToEatFragment(), getString(R.string.tab_where_to_eat));
         viewPager.setAdapter(adapter);
     }
 }
