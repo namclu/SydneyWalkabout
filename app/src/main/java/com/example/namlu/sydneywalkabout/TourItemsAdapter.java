@@ -26,11 +26,8 @@ public class TourItemsAdapter extends ArrayAdapter<TourItem> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
-        // Check if existing view is being reused, otherwise inflate the view
-        View tourItemView = convertView;
-
-        if (tourItemView == null) {
-            tourItemView = LayoutInflater.from(getContext()).inflate(R.layout.tour_item, parent, false);
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.tour_item, parent, false);
         }
 
         // Get the {@link TourItem} object located at this position in the list
@@ -38,7 +35,7 @@ public class TourItemsAdapter extends ArrayAdapter<TourItem> {
 
         // Find the TourItem image in the tour_item.xml layout, then get the image from currentTourItem
         //      and set the image
-        ImageView tourImage = (ImageView) tourItemView.findViewById(R.id.iv_tour_image);
+        ImageView tourImage = (ImageView) convertView.findViewById(R.id.iv_tour_image);
         if (currentTourItem.hasImage()) {
             tourImage.setImageResource(currentTourItem.getTourImageResId());
             tourImage.setVisibility(View.VISIBLE);
@@ -48,15 +45,15 @@ public class TourItemsAdapter extends ArrayAdapter<TourItem> {
 
         // Find the TourItem title in the tour_item.xml layout, then get the title from currentTourItem
         //      and set this title as the text
-        TextView tourTitle = (TextView) tourItemView.findViewById(R.id.tv_tour_title);
+        TextView tourTitle = (TextView) convertView.findViewById(R.id.tv_tour_title);
         tourTitle.setText(currentTourItem.getTourTitle());
 
         // Find the TourItem description in the tour_item.xml layout, then get the description from currentTourItem
         //      and set this description as the text
-        TextView tourDescription = (TextView) tourItemView.findViewById(R.id.tv_tour_description);
+        TextView tourDescription = (TextView) convertView.findViewById(R.id.tv_tour_description);
         tourDescription.setText(currentTourItem.getTourDescription());
 
         // Return the whole list item layout so that it can be shown in the ListView.
-        return tourItemView;
+        return convertView;
     }
 }

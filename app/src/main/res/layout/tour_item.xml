@@ -8,24 +8,23 @@
         android:id="@+id/iv_tour_image"
         android:layout_width="match_parent"
         android:layout_height="@dimen/iv_height_tour_item"
-        android:scaleType="centerCrop"
-        android:adjustViewBounds="true"
-        tools:src="@drawable/bondi_coogee"/>
+        tools:src="@drawable/bondi_coogee"
+        style="@style/Image"/>
 
     <TextView
         android:id="@+id/tv_tour_title"
-        style="@style/Title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/iv_tour_image"
-        tools:text="@string/text_title"/>
+        tools:text="@string/text_title"
+        style="@style/Title"/>
 
     <TextView
         android:id="@+id/tv_tour_description"
-        style="@style/Description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tv_tour_title"
-        tools:text="@string/text_description"/>
+        tools:text="@string/text_description"
+        style="@style/Description"/>
 
 </RelativeLayout>

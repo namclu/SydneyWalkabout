@@ -8,6 +8,11 @@
         <item name="colorAccent">@color/accent</item>
     </style>
 
+    <style name="Image">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
     <style name="Title">
         <item name="android:paddingLeft">@dimen/activity_vertical_margin</item>
         <item name="android:paddingTop">@dimen/text_horizontal_padding</item>
