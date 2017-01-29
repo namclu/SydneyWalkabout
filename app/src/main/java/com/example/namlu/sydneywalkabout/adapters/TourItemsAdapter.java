@@ -26,8 +26,17 @@ public class TourItemsAdapter extends ArrayAdapter<TourItem> {
         super(context, 0, tourItems);
     }
 
+    // ViewHolder to cache our views
+    static class ViewHolder{
+        ImageView image;
+        TextView title;
+        TextView description;
+    }
+
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
+
+        ViewHolder viewHolder = new ViewHolder();
 
         if (convertView == null) {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.tour_item, parent, false);
@@ -38,23 +47,23 @@ public class TourItemsAdapter extends ArrayAdapter<TourItem> {
 
         // Find the TourItem image in the tour_item.xml layout, then get the image from currentTourItem
         //      and set the image
-        ImageView tourImage = (ImageView) convertView.findViewById(R.id.iv_tour_image);
+        viewHolder.image = (ImageView) convertView.findViewById(R.id.iv_tour_image);
         if (currentTourItem.hasImage()) {
-            tourImage.setImageResource(currentTourItem.getTourImageResId());
-            tourImage.setVisibility(View.VISIBLE);
+            viewHolder.image.setImageResource(currentTourItem.getTourImageResId());
+            viewHolder.image.setVisibility(View.VISIBLE);
         } else {
-            tourImage.setVisibility(View.GONE);
+            viewHolder.image.setVisibility(View.GONE);
         }
 
         // Find the TourItem title in the tour_item.xml layout, then get the title from currentTourItem
         //      and set this title as the text
-        TextView tourTitle = (TextView) convertView.findViewById(R.id.tv_tour_title);
-        tourTitle.setText(currentTourItem.getTourTitle());
+        viewHolder.title = (TextView) convertView.findViewById(R.id.tv_tour_title);
+        viewHolder.title.setText(currentTourItem.getTourTitle());
 
         // Find the TourItem description in the tour_item.xml layout, then get the description from currentTourItem
         //      and set this description as the text
-        TextView tourDescription = (TextView) convertView.findViewById(R.id.tv_tour_description);
-        tourDescription.setText(currentTourItem.getTourDescription());
+        viewHolder.description = (TextView) convertView.findViewById(R.id.tv_tour_description);
+        viewHolder.description.setText(currentTourItem.getTourDescription());
 
         // Return the whole list item layout so that it can be shown in the ListView.
         return convertView;
