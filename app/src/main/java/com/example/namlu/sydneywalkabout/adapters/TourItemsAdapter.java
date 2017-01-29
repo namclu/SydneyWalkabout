@@ -1,4 +1,4 @@
-package com.example.namlu.sydneywalkabout;
+package com.example.namlu.sydneywalkabout.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,6 +7,9 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.namlu.sydneywalkabout.R;
+import com.example.namlu.sydneywalkabout.model.TourItem;
 
 import java.util.ArrayList;
 

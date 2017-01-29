@@ -1,4 +1,4 @@
-package com.example.namlu.sydneywalkabout;
+package com.example.namlu.sydneywalkabout.adapters;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

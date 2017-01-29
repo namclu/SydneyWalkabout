@@ -1,4 +1,4 @@
-package com.example.namlu.sydneywalkabout;
+package com.example.namlu.sydneywalkabout.model;
 
 /**
  * Created by namlu on 21-Jan-17.

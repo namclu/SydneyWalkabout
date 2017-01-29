@@ -5,6 +5,12 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
+import com.example.namlu.sydneywalkabout.adapters.BeachesFragment;
+import com.example.namlu.sydneywalkabout.adapters.LandmarksFragment;
+import com.example.namlu.sydneywalkabout.adapters.ThingsToDoFragment;
+import com.example.namlu.sydneywalkabout.adapters.ViewPagerAdapter;
+import com.example.namlu.sydneywalkabout.adapters.WhereToEatFragment;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 

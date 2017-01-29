@@ -15,13 +15,13 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".LandmarksActivity">
+        <activity android:name=".activities.LandmarksActivity">
         </activity>
-        <activity android:name=".BeachesActivity">
+        <activity android:name=".activities.BeachesActivity">
         </activity>
-        <activity android:name=".ThingsToDoActivity">
+        <activity android:name=".activities.ThingsToDoActivity">
         </activity>
-        <activity android:name=".WhereToEatActivity">
+        <activity android:name=".activities.WhereToEatActivity">
         </activity>
     </application>
 
